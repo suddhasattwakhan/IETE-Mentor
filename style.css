@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.904);
+}
+.header h1 {
+  color: white;
+  font-size: 8rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Bree Serif", serif;
+}
+.container-fluid {
+  background-color: black;
+  text-align: center;
+}
+.container-fluid h1 {
+  padding-top: 1rem;
+  margin-bottom: 5rem;
+  font-size: 4rem;
+  color: rgba(255, 255, 255, 0.712);
+  margin-bottom: 0 !important;
+  font-family: "Bree Serif", serif;
+}
+
+.card-body {
+  background-color: rgba(0, 0, 0, 0.733);
+  color: white;
+  font-size: 2rem;
+}
+.card {
+  box-shadow: 5px 10px 18px #eeecec;
+}
